@@ -1,0 +1,26 @@
+@import "../variables.scss";
+
+.searchContainer {
+  //   width: 100%;
+  width: 45%;
+  height: 7em;
+  padding: 1.5em;
+  margin: 5em auto;
+  box-shadow: $borderStyles;
+
+  p {
+    color: $primaryColor;
+  }
+
+  input {
+    margin: 0.7em 0 0 0;
+    width: 100%;
+    max-width: 640px;
+    line-height: 1.5;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    outline-color: $primaryColor;
+    font-size: 18px;
+  }
+}

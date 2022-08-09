@@ -1,0 +1,23 @@
+.navbarContainer {
+  box-shadow: 2px 1px 5px;
+  height: 5em;
+  display: flex;
+  align-items: center;
+}
+.navbarContainer .wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0 10em;
+  letter-spacing: 3px;
+}
+@media only screen and (max-width: 640px) {
+  .navbarContainer .wrap {
+    justify-content: space-between;
+    margin: 0 1em;
+  }
+}
+.navbarContainer .wrap p span {
+  color: #591c21;
+}/*# sourceMappingURL=navbarStyles.css.map */

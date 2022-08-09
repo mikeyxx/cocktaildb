@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+@mixin flexContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navbarContainer {
+  box-shadow: $borderStyles;
+  height: 5em;
+  @include flexContainer();
+
+  .wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 0 10em;
+    letter-spacing: 3px;
+
+    @media only screen and (max-width: "640px") {
+      justify-content: space-between;
+      margin: 0 1em;
+    }
+
+    p span {
+      color: $primaryColor;
+    }
+  }
+}

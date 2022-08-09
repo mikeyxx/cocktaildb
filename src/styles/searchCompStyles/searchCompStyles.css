@@ -1,0 +1,21 @@
+.searchContainer {
+  width: 45%;
+  height: 7em;
+  padding: 1.5em;
+  margin: 5em auto;
+  box-shadow: 2px 1px 5px;
+}
+.searchContainer p {
+  color: #591c21;
+}
+.searchContainer input {
+  margin: 0.7em 0 0 0;
+  width: 100%;
+  max-width: 640px;
+  line-height: 1.5;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  outline-color: #591c21;
+  font-size: 18px;
+}/*# sourceMappingURL=searchCompStyles.css.map */

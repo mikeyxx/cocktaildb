@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.App #loadingState {
+  text-align: center;
+  font-size: 2rem;
+}
+.App .err {
+  color: #d92525;
+}
+.App .fetchingState {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.App .header {
+  text-align: center;
+}
+.App .warning {
+  color: #d92525;
+}
+
+.displayDrinks {
+  margin: 2em auto;
+  width: 100%;
+  max-width: 1220px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+@media only screen and (max-width: 1007px) {
+  .displayDrinks {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media only screen and (max-width: 640px) {
+  .displayDrinks {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=App.css.map */

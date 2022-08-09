@@ -1,0 +1,43 @@
+@import "globalStyles";
+@import "./variables.scss";
+
+.App {
+  #loadingState {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .err {
+    color: $secondaryColor;
+  }
+
+  .fetchingState {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .header {
+    text-align: center;
+  }
+
+  .warning {
+    color: $secondaryColor;
+  }
+}
+
+.displayDrinks {
+  margin: 2em auto;
+  width: 100%;
+  max-width: 1220px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+  @media only screen and (max-width: "1007px") {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @media only screen and (max-width: "640px") {
+    grid-template-columns: 1fr;
+  }
+}
