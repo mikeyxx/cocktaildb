@@ -31,7 +31,6 @@ function App() {
 
   useEffect(() => {
     fetchCocktail();
-    console.log("Updated");
   }, [fetchCocktail]);
 
   const selectSingleCocktail = (id) => {
